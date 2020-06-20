@@ -6,8 +6,12 @@ This is a demo project using Rust, [Rocket](https://rocket.rs/), [diesel](https:
 
 ## Create a Rocket.toml file and add the following
 
-#### [development]
-- port = 3000
+```rust
 
- #### [development.databases]
-- postgres = { url = "postgres://username:password@localhost:5432/db_name" }
+ [development]
+ port = 3000 || your port
+
+ [development.databases]
+ postgres = { url = "postgres://username:password@localhost:5432/db_name" }
+
+```
