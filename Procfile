@@ -1,1 +1,1 @@
-web: ./target/release/notes-api
+web: ROCKET_PORT=$PORT ./target/release/notes-api
