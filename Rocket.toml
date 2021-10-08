@@ -8,4 +8,5 @@ workers = 8
 [production]
 
 [production.databases]
+workers = 1
 postgres = { url = "postgres://qjwbroar:t0L287etlBpH1S0oxoodK1wvVqyRdqMI@ella.db.elephantsql.com/qjwbroar" }
