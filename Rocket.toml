@@ -1,0 +1,11 @@
+[development]
+port = 3000
+workers = 8
+
+[development.databases]
+ postgres = { url = "postgres://addempsea:123456789@localhost:5431/rustly-notes" }
+
+[production]
+
+[production.databases]
+postgres = { url = "postgres://qjwbroar:t0L287etlBpH1S0oxoodK1wvVqyRdqMI@ella.db.elephantsql.com/qjwbroar" }
